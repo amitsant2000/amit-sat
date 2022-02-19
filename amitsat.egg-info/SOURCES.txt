@@ -1,0 +1,7 @@
+README.md
+amitsat.c
+setup.py
+amitsat.egg-info/PKG-INFO
+amitsat.egg-info/SOURCES.txt
+amitsat.egg-info/dependency_links.txt
+amitsat.egg-info/top_level.txt
