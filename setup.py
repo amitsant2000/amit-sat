@@ -9,7 +9,7 @@ def main():
     LDFLAGS = ['-fopenmp']
 	# Use the setup function we imported and set up the modules.
 	# You may find this reference helpful: https://docs.python.org/3.6/extending/building.html
-    module = Extension('amitsat', sources=['amitsat.c'], extra_compile_args=CFLAGS, language='c', include_dirs=['./'])
+    module = Extension('amitsat', sources=['amitsat.c'], language='c', include_dirs=['./'])
     setup(name='amitsat', author='Amit Sant', ext_modules=[module])
 
 
