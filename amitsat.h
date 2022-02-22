@@ -2,4 +2,4 @@
 
 
 //Function Definitions
-PyObject *solve(PyObject* lst);
+PyObject *solve(PyObject* lst, PyObject* args);
